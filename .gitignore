@@ -4,3 +4,5 @@
 /ConsoleApp1/bin
 /ConsoleApp1/obj
 /ConsoleApp1/packages
+/ConsoleApp1/*.config
+/ConsoleApp1/packages.config
