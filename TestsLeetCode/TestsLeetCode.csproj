@@ -58,6 +58,7 @@
     <Compile Include="twoSumUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="reverseStringUnitTest.cs" />
+    <Compile Include="MaxDepthBinaryTreeUT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

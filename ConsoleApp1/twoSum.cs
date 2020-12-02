@@ -1,6 +1,6 @@
-﻿public class leetCodeAlgorithms
+﻿public static class leetCodeAlgorithms
 {
-    public int[] twoSum(int[] nums, int target)
+    public static int[] twoSum(int[] nums, int target)
     {
         int[] returnVector = new int[2];
         bool continueLoop = true;
