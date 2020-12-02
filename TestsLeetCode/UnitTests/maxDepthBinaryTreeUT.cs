@@ -4,7 +4,7 @@ using FluentAssertions;
 namespace TestsLeetCode
 {
     [TestClass]
-    public class MaxDepthBinaryTreeUT
+    public class maxDepthBinaryTreeUT
     {
         [TestMethod]
         public void doIt()
