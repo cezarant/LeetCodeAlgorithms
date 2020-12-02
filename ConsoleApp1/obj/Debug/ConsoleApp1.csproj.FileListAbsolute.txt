@@ -9,3 +9,14 @@ C:\Users\cezar.sousa\source\repos\ConsoleApp1\bin\Debug\FluentAssertions.dll
 C:\Users\cezar.sousa\source\repos\ConsoleApp1\bin\Debug\FluentAssertions.pdb
 C:\Users\cezar.sousa\source\repos\ConsoleApp1\bin\Debug\FluentAssertions.xml
 C:\Users\cezar.sousa\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\FluentAssertions.dll
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\FluentAssertions.pdb
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\bin\Debug\FluentAssertions.xml
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Estudos\LeetCodeAlgorithms\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
