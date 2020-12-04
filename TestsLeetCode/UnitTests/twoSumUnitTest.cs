@@ -8,8 +8,8 @@ namespace TestsLeetCode
     {
         [TestMethod]
         public void doIt()
-        {            
-            verifyIt(new int[] { 2, 7, 11, 15 }, 9, new int[]{ 0, 1 });
+        {
+            verifyIt(new int[] { 2, 7, 11, 15 }, 9, new int[] { 0, 1 });
 
             verifyIt(new int[] { 3, 2, 4 }, 6, new int[] { 1, 2 });
 
@@ -21,11 +21,11 @@ namespace TestsLeetCode
 
             verifyIt(new int[] { 2, 5, -70, 0, 35, 41, 4, 4, 26, 29, 56, 21, -19, 38, 31, 33, 37, 39, -46, 65, 71, 68 }, 8, new int[] { 6, 7 });
 
-            verifyIt(new int[] { 2, 5, -70, 0, 35, 41, 4, 4, 26, 29, 56, 21, -19, 38, 31, 33, 37, 39, -46, 65, 71, 68 }, -1000, new int[] { 0, 0 });            
+            verifyIt(new int[] { 2, 5, -70, 0, 35, 41, 4, 4, 26, 29, 56, 21, -19, 38, 31, 33, 37, 39, -46, 65, 71, 68 }, -1000, new int[] { 0, 0 });
         }
-        private void verifyIt(int[] input,int target, int[] expected)
+        private void verifyIt(int[] input, int target, int[] expected)
         {
-            int[] output = leetCodeAlgorithms.twoSum(input,target);
+            int[] output = twoSumProblem.implementation(input, target);
             output.Should().BeEquivalentTo(expected);
         }
     }

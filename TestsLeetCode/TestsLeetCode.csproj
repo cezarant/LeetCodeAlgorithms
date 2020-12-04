@@ -62,9 +62,6 @@
     <Compile Include="UnitTests\singleNumberUT.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ConsoleApp1\LeetCode.csproj">
       <Project>{13535b9c-2e01-4c45-a7e9-a59b7e80531e}</Project>
       <Name>LeetCode</Name>

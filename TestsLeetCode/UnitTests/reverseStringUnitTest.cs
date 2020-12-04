@@ -16,7 +16,7 @@ namespace TestsLeetCode
         }
         private void verifyIt(string input, string vs_expected)
         {
-            char[] output = reverseString.reverseStringMethod(input.ToCharArray());
+            char[] output = reverseStringProblem.implementation(input.ToCharArray());
             char[] expected = vs_expected.ToCharArray();
             output.Should().BeEquivalentTo(expected);
         }
