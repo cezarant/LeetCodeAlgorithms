@@ -1,8 +1,8 @@
 ﻿using System;
 
-public static class reverseString
+public static class reverseStringProblem
 {
-    public static char[] reverseStringMethod(char[] s)
+    public static char[] implementation(char[] s)
     {
         int i = 0;
         char aux;

@@ -4,7 +4,7 @@ public class TreeNode
     public int? val;
     public TreeNode left;
     public TreeNode right;
-    private object  p;
+    private object p;
 
     public TreeNode(object p)
     {
@@ -18,20 +18,20 @@ public class TreeNode
         this.right = right;
     }
 }
-public static class maxDepthBinaryTree
+public static class maxDepthBinaryTreeProblem
 {
-    public static int MaxDepth(TreeNode root)
+    public static int implementation(TreeNode root)
     {
         if (root == null)
             return 0;
-                
-        int leftDepth = MaxDepth(root.left);
-        int rightDepth = MaxDepth(root.right);
-                
+
+        int leftDepth = implementation(root.left);
+        int rightDepth = implementation(root.right);
+
         if (leftDepth > rightDepth)
             return (leftDepth + 1);
         else
-            return (rightDepth + 1);        
+            return (rightDepth + 1);
     }
 }
 
