@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problems\DeleteNodeLinkedListProblem.cs" />
     <Compile Include="Problems\maxDepthBinaryTreeProblem.cs" />
     <Compile Include="Problems\singleNumberProblem.cs" />
     <Compile Include="Program.cs" />
