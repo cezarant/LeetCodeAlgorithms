@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 
-
 public static class LLOperations
 {
     public static void verify(ListNode nodeHead, int cont, int[] arrExpected)

@@ -8,6 +8,6 @@ public class reverseLinkedListUT
     {
         ListNode nodeHead = LLFactory.create(1, new int[] { 2, 3, 4, 5 });
         reverseLinkedListProblem.implementation(nodeHead);
-        LLOperations.verify(nodeHead,0,new int[] { 5, 4, 3, 2, 1 }); 
+        LLOperations.verify(nodeHead, 0, new int[] { 5, 4, 3, 2, 1 });
     }
 }

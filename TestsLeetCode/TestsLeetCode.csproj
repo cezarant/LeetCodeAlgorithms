@@ -58,6 +58,7 @@
     <Compile Include="Common\LLOperations.cs" />
     <Compile Include="Models\LLFactory.cs" />
     <Compile Include="UnitTests\DeleteNodeLinkedListUT.cs" />
+    <Compile Include="UnitTests\FizzBuzzUT.cs" />
     <Compile Include="UnitTests\twoSumUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTests\reverseStringUnitTest.cs" />

@@ -1,4 +1,4 @@
-﻿public static class DeleteNodeLinkedListProblem
+﻿public static class deleteNodeLinkedListProblem
 {
     public static void implementation(ListNode node)
     {
