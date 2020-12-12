@@ -47,6 +47,7 @@
     <Compile Include="Models\ListNode.cs" />
     <Compile Include="Problems\deleteNodeLinkedListProblem.cs" />
     <Compile Include="Problems\fizzBuzzProblem.cs" />
+    <Compile Include="Problems\majorityElementProblem.cs" />
     <Compile Include="Problems\maxDepthBinaryTreeProblem.cs" />
     <Compile Include="Problems\reverseLinkedListProblem.cs" />
     <Compile Include="Problems\singleNumberProblem.cs" />
