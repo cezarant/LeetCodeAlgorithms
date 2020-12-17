@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Common\LLOperations.cs" />
     <Compile Include="Models\LLFactory.cs" />
+    <Compile Include="UnitTests\convertSortedArrayUT.cs" />
     <Compile Include="UnitTests\deleteNodeLinkedListUT.cs" />
     <Compile Include="UnitTests\fizzBuzzUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
