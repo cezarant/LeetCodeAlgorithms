@@ -8,7 +8,7 @@ public static class bestTimeToBuyProblem
         int j = 1;
         int maxProfit = 0;
 
-        if (prices.Length == 0)
+        if ((prices.Length == 0) || (prices.Length == 1))
             return 0; 
         do
         {

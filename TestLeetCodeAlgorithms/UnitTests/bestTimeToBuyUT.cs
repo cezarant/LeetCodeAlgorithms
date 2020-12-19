@@ -12,6 +12,9 @@ public class bestTimeToBuyUT
 
         result = bestTimeToBuyProblem.implementation(new int[]{});
         result.Should().Be(0);
+
+        result = bestTimeToBuyProblem.implementation(new int[] {1});
+        result.Should().Be(0);
     }
 }
 
