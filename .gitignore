@@ -6,3 +6,6 @@
 /ConsoleApp1/packages
 /ConsoleApp1/*.config
 /ConsoleApp1/packages.config
+/TestLeetCodeAlgorithms/bin/Debug/pt
+/TestLeetCodeAlgorithms/bin
+/TestLeetCodeAlgorithms/obj
