@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1.Problems
-{    
+﻿namespace ConsoleApp1.Problems
+{
     public static class convertSortedArrayBST
     {
         public static TreeNode implementation(int[] arr)
@@ -13,8 +7,8 @@ namespace ConsoleApp1.Problems
             if (arr.Length == 0)
                 return null;
 
-            TreeNode head = doItBST(arr, 0, arr.Length -1);
-            return head;       
+            TreeNode head = doItBST(arr, 0, arr.Length - 1);
+            return head;
         }
         public static TreeNode helper(int[] num, int low, int high)
         {
@@ -28,15 +22,16 @@ namespace ConsoleApp1.Problems
             node.right = helper(num, mid + 1, high);
             return node;
         }
-        private static TreeNode doItBST(int[] arr, int start, int end) {
+        private static TreeNode doItBST(int[] arr, int start, int end)
+        {
             if (start > end)
-                return null; 
-            
+                return null;
+
             int middle = (start + end) / 2;
             TreeNode treeNode = new TreeNode(arr[middle]);
             treeNode.left = doItBST(arr, start, middle - 1);
-            treeNode.right = doItBST(arr, middle + 1 , end );
-            return treeNode; 
+            treeNode.right = doItBST(arr, middle + 1, end);
+            return treeNode;
         }
     }
 }

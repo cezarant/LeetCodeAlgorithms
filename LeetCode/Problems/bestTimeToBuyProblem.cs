@@ -9,21 +9,21 @@ public static class bestTimeToBuyProblem
         int maxProfit = 0;
 
         if ((prices.Length == 0) || (prices.Length == 1))
-            return 0; 
+            return 0;
         do
         {
             do
             {
                 if (prices[i] < prices[j])
-                    if((prices[j] - prices[i]) > maxProfit) 
+                    if ((prices[j] - prices[i]) > maxProfit)
                         maxProfit = prices[j] - prices[i];
 
                 j++;
             } while (j < prices.Length);
-            j = i + 1; 
-            i++;             
-        } while (i < prices.Length - 1); 
-        
+            j = i + 1;
+            i++;
+        } while (i < prices.Length - 1);
+
         return maxProfit;
     }
 }

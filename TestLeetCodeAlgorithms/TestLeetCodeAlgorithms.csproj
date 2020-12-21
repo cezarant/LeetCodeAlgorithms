@@ -69,6 +69,7 @@
     <Compile Include="UnitTests\reverseStringUT.cs" />
     <Compile Include="UnitTests\singleNumberUT.cs" />
     <Compile Include="UnitTests\twoSumUT.cs" />
+    <Compile Include="UnitTests\validAnagramUT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
