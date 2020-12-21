@@ -1,23 +1,21 @@
 ﻿
+using System;
+using System.Linq;
+
 public static class validAnagramProblem
 {
     public static bool implementation(string s, string t)
-    {
-        bool bValidAnagram = true;
-        int cont = 0;
-        int contReverse = t.Length-1;
-        if (contReverse != (s.Length-1))
-            return false; 
+    {           
+        if ((t.Length - 1) != (s.Length-1))
+            return false;
 
-        do
-        {
-            if (s[cont] != t[contReverse])
-                bValidAnagram = false;
+        char[] vetString1 = s.ToCharArray();
+        char[] vetString2 = t.ToCharArray();
 
-            cont++;
-            contReverse--;
-        } while ((cont < (s.Length-1)) && (bValidAnagram));
-        return bValidAnagram; 
+        Array.Sort(vetString1);
+        Array.Sort(vetString2);
+                
+        return vetString1.SequenceEqual(vetString2);
     }
 }
 

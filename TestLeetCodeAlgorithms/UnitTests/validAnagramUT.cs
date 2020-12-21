@@ -8,18 +8,14 @@ using FluentAssertions;
         [TestMethod]
         public void doIt()
         {
-            bool validAnagram = validAnagramProblem.implementation("ANAANA", "ANAANA");
+            bool validAnagram = validAnagramProblem.implementation("anagram", "nagaram");
             validAnagram.Should().Be(true);
-
-            validAnagram = validAnagramProblem.implementation("NUMBER", "REBMUN");
-            validAnagram.Should().Be(true);
-
-            validAnagram = validAnagramProblem.implementation("NUMBER", "");
-            validAnagram.Should().Be(false);
 
             validAnagram = validAnagramProblem.implementation("", "number");
             validAnagram.Should().Be(false);
 
-    }
+            validAnagram = validAnagramProblem.implementation("number", "");
+            validAnagram.Should().Be(false);
+        }
     }
 
