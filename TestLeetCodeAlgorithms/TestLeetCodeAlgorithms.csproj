@@ -60,7 +60,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTests\bestTimeToBuyUT.cs" />
     <Compile Include="UnitTests\convertSortedArrayUT.cs" />
-    <Compile Include="UnitTests\DeleteNodeLinkedListUT.cs" />
+    <Compile Include="UnitTests\deleteNodeLinkedListUT.cs" />
+    <Compile Include="UnitTests\firstUniqueCharacterUT.cs" />
     <Compile Include="UnitTests\fizzBuzzUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
