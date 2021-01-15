@@ -65,6 +65,7 @@
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
     <Compile Include="UnitTests\moveZerosUT.cs" />
+    <Compile Include="UnitTests\pascalTriangleUT.cs" />
     <Compile Include="UnitTests\reverseLinkedListUT.cs" />
     <Compile Include="UnitTests\reverseStringUT.cs" />
     <Compile Include="UnitTests\singleNumberUT.cs" />
