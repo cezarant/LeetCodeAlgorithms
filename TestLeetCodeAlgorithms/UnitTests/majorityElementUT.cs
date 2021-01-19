@@ -20,9 +20,7 @@ public class majorityElementUT
         for (int i = 0; i < vectorInput.Length; i++)
             vectorInput[i] = Convert.ToInt32(vetcontent[i]);
 
-        result = majorityElementProblem.implementation(vectorInput);
-        result.Should().Be(2);
-
+        majorityElementProblem.implementation(vectorInput).Should().Be(2);
     }
 }
 

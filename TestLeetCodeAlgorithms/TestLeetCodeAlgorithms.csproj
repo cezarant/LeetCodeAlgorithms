@@ -63,8 +63,10 @@
     <Compile Include="UnitTests\deleteNodeLinkedListUT.cs" />
     <Compile Include="UnitTests\firstUniqueCharacterUT.cs" />
     <Compile Include="UnitTests\fizzBuzzUT.cs" />
+    <Compile Include="UnitTests\intersectionOfTwoArraysUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
+    <Compile Include="UnitTests\missingNumberUT.cs" />
     <Compile Include="UnitTests\moveZerosUT.cs" />
     <Compile Include="UnitTests\pascalTriangleUT.cs" />
     <Compile Include="UnitTests\reverseLinkedListUT.cs" />

@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ConsoleApp1.Problems;
 using FluentAssertions;
-using ConsoleApp1.Problems;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestLeetCodeAlgorithms.UnitTests
 {
-    
+
     [TestClass]
     public class firstUniqueCharacterUT
     {

@@ -1,11 +1,9 @@
-﻿
-using System;
-
-namespace ConsoleApp1.Problems
+﻿namespace ConsoleApp1.Problems
 {
     public static class firstUniqueCharacterProblem
     {
-        public static int implementation(string s){
+        public static int implementation(string s)
+        {
             var charAndCount = new int[256];
 
             foreach (var c in s)
