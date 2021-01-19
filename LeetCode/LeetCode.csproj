@@ -53,6 +53,7 @@
     <Compile Include="Problems\bestTimeToBuyProblem.cs" />
     <Compile Include="Problems\convertSortedArrayBST.cs" />
     <Compile Include="Problems\deleteNodeLinkedListProblem.cs" />
+    <Compile Include="Problems\findNumberProblem.cs" />
     <Compile Include="Problems\firstUniqueCharacterProblem.cs" />
     <Compile Include="Problems\fizzBuzzProblem.cs" />
     <Compile Include="Problems\intersectionOfTwoArraysProblem.cs" />
