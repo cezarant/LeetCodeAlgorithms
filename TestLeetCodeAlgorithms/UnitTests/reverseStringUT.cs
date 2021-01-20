@@ -1,23 +1,17 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
 [TestClass]
-public class reverseStringUnitTest
+public class reverseStringUT
 {
     [TestMethod]
     public void doIt()
     {
-        verifyIt("cezar", "razec");
-        verifyIt("banana", "ananab");
-        verifyIt("123456789123", "123987654321");
-        verifyIt("", "");
-    }
-    private void verifyIt(string input, string vs_expected)
-    {
-        char[] output = reverseStringProblem.implementation(input.ToCharArray());
-        char[] expected = vs_expected.ToCharArray();
-        output.Should().BeEquivalentTo(expected);
-    }
+        reverseStringProblem.implementation("cezar".ToCharArray()).Should().BeEquivalentTo("razec");
+        reverseStringProblem.implementation("banana".ToCharArray()).Should().BeEquivalentTo("ananab");
+        reverseStringProblem.implementation("123456789123".ToCharArray()).Should().BeEquivalentTo("123987654321");
+        reverseStringProblem.implementation("".ToCharArray()).Should().BeEquivalentTo("");
+        reverseStringProblem.implementation(new char[]{}).Should().BeEquivalentTo(new char[]{});
+    }    
 }
 
