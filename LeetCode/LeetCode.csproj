@@ -51,30 +51,14 @@
   <ItemGroup>
     <Compile Include="Models\ListNode.cs" />
     <Compile Include="Problems\bestTimeToBuyProblem.cs" />
-    <Compile Include="Problems\climbingStairsProblem.cs" />
-    <Compile Include="Problems\convertSortedArrayBST.cs" />
-    <Compile Include="Problems\deleteNodeLinkedListProblem.cs" />
-    <Compile Include="Problems\findNumberProblem.cs" />
-    <Compile Include="Problems\firstUniqueCharacterProblem.cs" />
-    <Compile Include="Problems\fizzBuzzProblem.cs" />
-    <Compile Include="Problems\intersectionOfTwoArraysProblem.cs" />
-    <Compile Include="Problems\IsPalindromeProblem.cs" />
-    <Compile Include="Problems\majorityElementProblem.cs" />
-    <Compile Include="Problems\maxDepthBinaryTreeProblem.cs" />
-    <Compile Include="Problems\missingNumberProblem.cs" />
-    <Compile Include="Problems\moveZerosProblem.cs" />
-    <Compile Include="Problems\pascalTriangleProblem.cs" />
-    <Compile Include="Problems\reverseLinkedListProblem.cs" />
-    <Compile Include="Problems\singleNumberProblem.cs" />
+    <Compile Include="Problems\reverseStringProblem.cs" />
     <Compile Include="Problems\validAnagramProblem.cs" />
-    <Compile Include="Problems\validParentesisProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Problems\reverseStringProblem.cs" />
-    <Compile Include="Problems\twoSumProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

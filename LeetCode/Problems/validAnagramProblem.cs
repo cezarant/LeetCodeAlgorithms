@@ -1,21 +1,15 @@
-﻿
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public static class validAnagramProblem
+namespace leetCode.Problems
 {
-    public static bool implementation(string s, string t)
+    public static class validAnagramProblem
     {
-        if ((t.Length - 1) != (s.Length - 1))
-            return false;
-
-        char[] vetString1 = s.ToCharArray();
-        char[] vetString2 = t.ToCharArray();
-
-        Array.Sort(vetString1);
-        Array.Sort(vetString2);
-
-        return vetString1.SequenceEqual(vetString2);
+        public static bool implementation(string s , string exp){
+            throw new NotImplementedException();
+        }
     }
 }
-

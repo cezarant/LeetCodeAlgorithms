@@ -1,4 +1,5 @@
-﻿using FluentAssertions;
+﻿using leetCode.Problems;
+using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
@@ -8,14 +9,9 @@ public class validAnagramUT
     [TestMethod]
     public void doIt()
     {
-        bool validAnagram = validAnagramProblem.implementation("anagram", "nagaram");
-        validAnagram.Should().Be(true);
-
-        validAnagram = validAnagramProblem.implementation("", "number");
-        validAnagram.Should().Be(false);
-
-        validAnagram = validAnagramProblem.implementation("number", "");
-        validAnagram.Should().Be(false);
+        validAnagramProblem.implementation("anagram", "nagaram").Should().Be(true);       
+        validAnagramProblem.implementation("", "number").Should().Be(false);       
+        validAnagramProblem.implementation("number", "").Should().Be(false);        
     }
 }
 
