@@ -67,6 +67,7 @@
     <Compile Include="Problems\reverseLinkedListProblem.cs" />
     <Compile Include="Problems\singleNumberProblem.cs" />
     <Compile Include="Problems\validAnagramProblem.cs" />
+    <Compile Include="Problems\validParentesisProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problems\reverseStringProblem.cs" />
