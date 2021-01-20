@@ -58,6 +58,7 @@
     <Compile Include="Problems\firstUniqueCharacterProblem.cs" />
     <Compile Include="Problems\fizzBuzzProblem.cs" />
     <Compile Include="Problems\intersectionOfTwoArraysProblem.cs" />
+    <Compile Include="Problems\IsPalindromeProblem.cs" />
     <Compile Include="Problems\majorityElementProblem.cs" />
     <Compile Include="Problems\maxDepthBinaryTreeProblem.cs" />
     <Compile Include="Problems\missingNumberProblem.cs" />
