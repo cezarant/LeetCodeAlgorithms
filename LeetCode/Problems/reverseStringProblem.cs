@@ -11,8 +11,9 @@ public static class reverseStringProblem
         // cezar -> aux:c 
         // cezar -> c:r 
         // rezar -> r:c 
-        // rezac.... 
-        char  aux = ' ';
+        // rezac....         
+        if (s.Length == 0) return s;
+        char aux = ' ';
         int cont = 0; 
         do
         {
