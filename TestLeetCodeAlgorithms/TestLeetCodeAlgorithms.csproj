@@ -75,6 +75,7 @@
     <Compile Include="UnitTests\reverseLinkedListUT.cs" />
     <Compile Include="UnitTests\reverseStringUT.cs" />
     <Compile Include="UnitTests\singleNumberUT.cs" />
+    <Compile Include="UnitTests\trailingZerosUT.cs" />
     <Compile Include="UnitTests\twoSumUT.cs" />
     <Compile Include="UnitTests\validAnagramUT.cs" />
     <Compile Include="UnitTests\validParentesisUT.cs" />
