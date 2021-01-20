@@ -13,12 +13,14 @@ public static class reverseStringProblem
         // rezar -> r:c 
         // rezac.... 
         char  aux = ' ';
-        for (int i = 0; i < s.Length; i++)
+        int cont = 0; 
+        do
         {
-            aux = s[s.Length - 1];
-            s[i] = aux;
-            s[s.Length - 1] = s[i];
-        }
+            aux = s[s.Length - (cont+1)];
+            s[s.Length - (cont + 1)] = s[cont];
+            s[cont] = aux;            
+            cont++; 
+        } while ((cont+ 1 ) < s.Length);        
         return s; 
     }
 }
