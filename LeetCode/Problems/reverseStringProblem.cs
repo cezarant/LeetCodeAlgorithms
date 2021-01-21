@@ -4,14 +4,16 @@
     {
         public static char[] implementation(char[] s)
         {
+            if (s.Length == 0) return s;
             int cont = 0;
             char aux = char.MinValue;
             do
             {
-                aux = s[s.Length - (cont + 1)];
+                aux = s[cont];
                 s[cont] = s[s.Length - (cont + 1)];
                 s[s.Length - (cont + 1)] = aux;
-            } while (cont < s.Length);
+                cont++;
+            } while (cont < (s.Length-1));
             return s;
         }
     }
