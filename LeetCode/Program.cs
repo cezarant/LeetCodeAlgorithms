@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace leetCode
+﻿namespace leetCode
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
