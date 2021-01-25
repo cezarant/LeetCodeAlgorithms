@@ -1,14 +1,10 @@
-﻿namespace ConsoleApp1.Problems
+namespace ConsoleApp1.Problems
 {
     public static class convertSortedArrayBST
     {
         public static TreeNode implementation(int[] arr)
         {
-            if (arr.Length == 0)
-                return null;
-
-            TreeNode head = doItBST(arr, 0, arr.Length - 1);
-            return head;
+            throw new Exception("Not implemented");
         }
         public static TreeNode helper(int[] num, int low, int high)
         {

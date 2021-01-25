@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace ConsoleApp1.Problems
 {
@@ -6,31 +6,7 @@ namespace ConsoleApp1.Problems
     {
         public static IList<IList<int>> implementation(int numRows)
         {
-            var result = new List<IList<int>>();
-
-            if (numRows == 0)
-                return result;
-
-            var previousRow = new List<int>();
-            previousRow.Add(1);
-            result.Add(previousRow);
-
-            for (int i = 1; i < numRows; i++)
-            {
-                var currentRow = new List<int>();
-                int previous = 0;
-                foreach (int val in previousRow)
-                {
-                    currentRow.Add(previous + val);
-                    previous = val;
-                }
-                currentRow.Add(1);
-
-                result.Add(currentRow);
-                previousRow = currentRow;
-            }
-            return result;
+            throw new Exception("Not implemented");
         }
-
     }
 }

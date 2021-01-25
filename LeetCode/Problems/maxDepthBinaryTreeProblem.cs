@@ -1,4 +1,4 @@
-﻿
+
 public class TreeNode
 {
     public int? val;
@@ -22,16 +22,7 @@ public static class maxDepthBinaryTreeProblem
 {
     public static int implementation(TreeNode root)
     {
-        if (root == null)
-            return 0;
-
-        int leftDepth = implementation(root.left);
-        int rightDepth = implementation(root.right);
-
-        if (leftDepth > rightDepth)
-            return (leftDepth + 1);
-        else
-            return (rightDepth + 1);
+        throw new Exception("Not implemented");
     }
 }
 
