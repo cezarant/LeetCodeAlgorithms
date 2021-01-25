@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\ListNode.cs" />
+    <Compile Include="Problems\majorityElementProblem.cs" />
     <Compile Include="Problems\reverseStringProblem.cs" />
     <Compile Include="Problems\validAnagramProblem.cs" />
     <Compile Include="Program.cs" />

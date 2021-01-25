@@ -1,4 +1,5 @@
-﻿using FluentAssertions;
+﻿using ConsoleApp1.Problems;
+using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
