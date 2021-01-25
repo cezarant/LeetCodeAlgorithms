@@ -61,6 +61,7 @@
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\reverseStringUT.cs" />
     <Compile Include="UnitTests\validAnagramUT.cs" />
+    <Compile Include="UnitTests\validPalindromeUT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
