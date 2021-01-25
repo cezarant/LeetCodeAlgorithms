@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FluentAssertions;
-using ConsoleApp1.Problems;
+using leetCode.Problems;
 
 namespace TestLeetCodeAlgorithms.UnitTests
 {    

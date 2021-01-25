@@ -1,7 +1,7 @@
 
 using System;
 
-namespace ConsoleApp1.Problems
+namespace leetCode.Problems
 {
     public static class validParentesisProblem
     {

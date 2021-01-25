@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp1.Problems
+namespace leetCode.Problems
 {
     public static class pascalTriangleProblem
     {

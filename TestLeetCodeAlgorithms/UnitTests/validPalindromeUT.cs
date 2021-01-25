@@ -1,4 +1,4 @@
-﻿using ConsoleApp1.Problems;
+﻿using leetCode.Problems;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FluentAssertions;
 
