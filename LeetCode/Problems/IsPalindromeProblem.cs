@@ -9,15 +9,25 @@ namespace ConsoleApp1.Problems
     {
         public static bool implementation(string s)
         {
-            char[] arr = s.Replace(" ",string.Empty).Trim().ToLower().ToCharArray();
-            for (int i = 0; i < arr.Length; i++)
+            int left = 0, right = s.Length - 1;
+            do
             {
-                if (char.IsLetterOrDigit(arr[i]))
+                if (!char.IsLetterOrDigit(s[left]))
                 {
-                    if (arr[i] != arr[(arr.Length - 1) - i])
-                        return false;
+                    left++;
                 }
-            }            
+                else if (!char.IsLetterOrDigit(s[right]))
+                {
+                    right--;
+                }
+                else {
+                    if (s[left].ToString().ToUpper() != s[right].ToString().ToUpper())
+                        return false;
+
+                    left++;
+                    right--;
+                }                 
+            } while (left < right);            
             return true; 
         }
     }
