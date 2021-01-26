@@ -58,24 +58,7 @@
     <Compile Include="Common\LLOperations.cs" />
     <Compile Include="Models\LLFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTests\bestTimeToBuyUT.cs" />
-    <Compile Include="UnitTests\climbimgStairsUT.cs" />
-    <Compile Include="UnitTests\convertSortedArrayUT.cs" />
-    <Compile Include="UnitTests\deleteNodeLinkedListUT.cs" />
-    <Compile Include="UnitTests\findNumberUT.cs" />
-    <Compile Include="UnitTests\firstUniqueCharacterUT.cs" />
-    <Compile Include="UnitTests\fizzBuzzUT.cs" />
-    <Compile Include="UnitTests\intersectionOfTwoArraysUT.cs" />
-    <Compile Include="UnitTests\majorityElementUT.cs" />
-    <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
-    <Compile Include="UnitTests\missingNumberUT.cs" />
-    <Compile Include="UnitTests\moveZerosUT.cs" />
-    <Compile Include="UnitTests\pascalTriangleUT.cs" />
-    <Compile Include="UnitTests\reverseLinkedListUT.cs" />
     <Compile Include="UnitTests\reverseStringUT.cs" />
-    <Compile Include="UnitTests\singleNumberUT.cs" />
-    <Compile Include="UnitTests\twoSumUT.cs" />
-    <Compile Include="UnitTests\validAnagramUT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

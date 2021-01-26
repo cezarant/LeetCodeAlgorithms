@@ -4,11 +4,11 @@ using System;
 
 namespace ConsoleApp1.Problems
 {
-    public static class IsPalindromeProblem
+  public static class IsPalindromeProblem
+  {
+    public static bool implementation(string s)
     {
-        public static bool implementation(string s)
-        {
-            throw new Exception("Not implemented");
-        }
+      throw new Exception("Not implemented");
     }
+  }
 }
