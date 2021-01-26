@@ -1,17 +1,14 @@
 using ConsoleApp1.Problems;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestLeetCodeAlgorithms.UnitTests
-{  
-  [TestClass]
-  public class isPalindromeUT
-  {
+[TestClass]
+public class isPalindromeUT
+{
     [TestMethod]
-    public void TestMethod1()
+    public void doIt()
     {
         IsPalindromeProblem.implementation("A man, a plan, a canal: Panama").Should().Be(true);
         IsPalindromeProblem.implementation("race a car").Should().Be(false);
     }
-  }
 }
