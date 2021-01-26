@@ -10,12 +10,12 @@ public static class reverseStringProblem
     int cont = 0;
     do
     {
-      aux = s[cont];
-      s[cont] = s[s.Length - (cont + 1)];
-      s[s.Length - (cont + 1)] = aux;
+        aux = s[cont];
+        s[cont] = s[s.Length - (cont + 1)];
+        s[s.Length - (cont + 1)] = aux;
 
-      cont++;
-    } while (cont < s.Length);
+        cont++;
+    }while (cont < s.Length);
     return s;
   }
 }
