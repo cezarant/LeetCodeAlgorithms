@@ -8,7 +8,7 @@ namespace TestLeetCodeAlgorithms.UnitTests
   public class containDuplicateUT
   {
     [TestMethod]
-    public void TestMethod1()
+    public void doIt()
     {
       containsDuplicateProblem.implementation(new int[] { 1, 2, 3, 1 }).Should().Be(true);
       containsDuplicateProblem.implementation(new int[] { 1, 2, 3, 4 }).Should().Be(false);
