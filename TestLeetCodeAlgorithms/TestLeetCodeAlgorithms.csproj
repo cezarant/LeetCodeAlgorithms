@@ -58,6 +58,7 @@
     <Compile Include="Common\LLOperations.cs" />
     <Compile Include="Models\LLFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTests\containDuplicateUT.cs" />
     <Compile Include="UnitTests\isPalindromeUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\reverseStringUT.cs" />
