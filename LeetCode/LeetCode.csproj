@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\ListNode.cs" />
+    <Compile Include="Problems\Arrays\arrayRotationImplementation.cs" />
     <Compile Include="Problems\bestTimeToBuyProblem.cs" />
     <Compile Include="Problems\climbingStairsProblem.cs" />
     <Compile Include="Problems\convertSortedArrayBST.cs" />
