@@ -6,27 +6,18 @@ public static class reverseStringProblem
     // Do not allocate extra space for another array,
     // you must do this by modifying the input array in-place with O(1) extra memory.
     public static char[] implementation(char[] s)
-    {
-        /*if (s.Length == 0) return s;
-        char[] revertedArr = new char[s.Length];
-        int cont = 0;
-        for (int i = s.Length - 1; i >= 0; i--)
-        {
-            revertedArr[cont] = s[i];
-            cont++;
-        }
-        return revertedArr;*/
-        int i = 0;
-        char aux;
+    {   
         if (s.Length > 0)
         {
+            int cont = 0;
+            char aux;
             do
             {
-                aux = s[i];
-                s[i] = s[(s.Length - 1) - i];
-                s[(s.Length - 1) - i] = aux;
-                i++;
-            } while (i < Math.Floor(Convert.ToDecimal(s.Length / 2)));
+                aux = s[cont];
+                s[cont] = s[(s.Length - 1) - cont];
+                s[(s.Length - 1) - cont] = aux;
+                cont++;
+            } while (cont < Math.Floor(Convert.ToDecimal(s.Length / 2)));
         }
         return s; 
     }
