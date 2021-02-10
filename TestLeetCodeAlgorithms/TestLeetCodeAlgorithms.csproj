@@ -66,7 +66,6 @@
     <Compile Include="UnitTests\firstUniqueCharacterUT.cs" />
     <Compile Include="UnitTests\fizzBuzzUT.cs" />
     <Compile Include="UnitTests\intersectionOfTwoArraysUT.cs" />
-    <Compile Include="UnitTests\isPalindromeUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
     <Compile Include="UnitTests\missingNumberUT.cs" />
@@ -77,7 +76,6 @@
     <Compile Include="UnitTests\singleNumberUT.cs" />
     <Compile Include="UnitTests\twoSumUT.cs" />
     <Compile Include="UnitTests\validAnagramUT.cs" />
-    <Compile Include="UnitTests\validParentesisUT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
