@@ -70,10 +70,7 @@
   <ItemGroup>
     <Content Include="TestCases\1.txt" />
     <Content Include="TestCases\1reverted.txt" />
-    <Content Include="TestCases\loremIpsum1.txt" />
     <Content Include="TestCases\majoritElement.txt" />
-    <Content Include="TestCases\reverted.txt" />
-    <Content Include="TestCases\revertedloremIpsum.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
