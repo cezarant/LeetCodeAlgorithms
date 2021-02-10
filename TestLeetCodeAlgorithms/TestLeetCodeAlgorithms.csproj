@@ -65,6 +65,8 @@
     <Compile Include="UnitTests\findNumberUT.cs" />
     <Compile Include="UnitTests\firstUniqueCharacterUT.cs" />
     <Compile Include="UnitTests\fizzBuzzUT.cs" />
+    <Compile Include="UnitTests\geekForGeek\arrayRotationUT.cs" />
+    <Compile Include="UnitTests\geekForGeek\reversalAlgorithmUT.cs" />
     <Compile Include="UnitTests\intersectionOfTwoArraysUT.cs" />
     <Compile Include="UnitTests\majorityElementUT.cs" />
     <Compile Include="UnitTests\maxDepthBinaryTreeUT.cs" />
